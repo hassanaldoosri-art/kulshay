@@ -107,8 +107,9 @@ page('support.html', 'الدعم والمساعدة', """
   <h2>كيف ألغي طلب؟</h2>
   <p>تقدر تلغي مجاناً قبل ما تختار فني، أو خلال 5 دقايق من اختياره.</p>
 
-  <h2>كيف أحذف حسابي؟</h2>
-  <p>من التطبيق: «حسابي» ثم «حذف الحساب». تنمسح بياناتك الشخصية مباشرة. ولو ما تقدر تدخل التطبيق، راسلنا من رقم جوالك المسجّل ونحذفه لك.</p>
+  <h2 id="delete-account">كيف أحذف حسابي؟</h2>
+  <p>من التطبيق: «حسابي» ثم «حذف الحساب». تنمسح بياناتك الشخصية مباشرة. ولو ما تقدر تدخل التطبيق، راسلنا على %(mail)s من رقم جوالك المسجّل ونحذفه لك خلال 30 يوم.</p>
+  <p>اللي ينحذف: الاسم، رقم الجوال، العناوين، وبيانات الفني (الهوية، الآيبان، الموقع، التخصصات). اللي يبقى: سجلات الطلبات السابقة بدون اسمك، لأغراض المحاسبة وحل النزاعات.</p>
 
   <h2>أنا فني، كيف أسجّل؟</h2>
   <p>حمّل التطبيق واختر «أنا فني»، وعبّ بياناتك وتخصصاتك. نراجع الطلب ونفعّل حسابك، وبعدها توصلك الطلبات القريبة منك.</p>
@@ -116,8 +117,9 @@ page('support.html', 'الدعم والمساعدة', """
 <section dir="ltr" lang="en">
   <h1>Support</h1>
   <p>Questions or a problem with a request? Email us at %(mail)s with your request number and registered mobile number.</p>
-  <h2>Deleting your account</h2>
-  <p>In the app: Account → Delete account. Your personal data is erased immediately. If you can't sign in, email us from your registered number and we will delete it for you.</p>
+  <h2 id="delete-account-en">Deleting your account</h2>
+  <p>In the app: Account → Delete account. Your personal data is erased immediately. If you can't sign in, email %(mail)s with your registered mobile number and we will delete the account within 30 days.</p>
+  <p>Deleted: name, mobile number, addresses and technician details (ID, IBAN, location, trades). Kept: past request records without your name, for accounting and dispute resolution.</p>
   <h2>Payment and warranty</h2>
   <p>Payment is currently in cash to the technician after the work is done. Every job carries a 30-day warranty from completion.</p>
 </section>
